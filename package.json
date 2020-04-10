@@ -1,0 +1,30 @@
+{
+  "name": "cucumber-cypress-starter",
+  "version": "1.0.0",
+  "description": "Project for using Cypress with cucumber-js, written in JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SawanRawath/cucumber-cypress-starter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SawanRawath/cucumber-cypress-starter/issues"
+  },
+  "homepage": "https://github.com/SawanRawath/cucumber-cypress-starter#readme",
+  "devDependencies": {
+    "cypress": "^4.3.0",
+    "cypress-cucumber-preprocessor": "^2.3.0"
+  },
+  "dependencies": {
+    "import-cwd": "^3.0.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}
